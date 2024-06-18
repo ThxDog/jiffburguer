@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Diamond Dawg.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/23-130726a0ec93787b.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/2967ce1f9ce571bd.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/3693799a2660597c.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/759-bacfb9ae27cf5f61.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/fd9d1056-2821b0f0cabcd8bd.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/logo.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/main-app-f73cdb3bce740b12.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/page-33ff0c91bf163919.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/polyfills-78c92fac7aa8fdd8.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Diamond Dawg_files/webpack-64c6c324f4bb8774.js",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/Diamond Dawg.html" },
+    { "src": "/Diamond Dawg_files/(.*)", "dest": "/Diamond Dawg_files/$1" }
+  ]
+}
